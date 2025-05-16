@@ -8,6 +8,8 @@ local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/zenhutest/
 local Window = ui:NewWindow('Nocturn Hub', "Zen Hub Window", 'rbxassetid://17775417459')
 local MenuFunctions = Window:AddMenu(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, "", 'ticket', 'tab')
 ```
+# Tab
+local Tab = MenuFunctions:AddTab("Example Tab", 10723415903, "Player info, stats")
 
 # Section
 ```lua
