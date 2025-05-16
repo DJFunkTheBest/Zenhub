@@ -9,8 +9,9 @@ local Window = ui:NewWindow('Nocturn Hub', "Zen Hub Window", 'rbxassetid://17775
 local MenuFunctions = Window:AddMenu(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, "", 'ticket', 'tab')
 ```
 # Tab
+```lua
 local Tab = MenuFunctions:AddTab("Example Tab", 10723415903, "Player info, stats")
-
+```
 # Section
 ```lua
 local ExampleSection = ExampleTab:AddSection("Section", "Configurate your section")
